@@ -1,0 +1,103 @@
+body{
+  background: url('../imagenes/fondo.png') no-repeat fixed center center;
+  background-size: cover; /**abarque toda la pantalla**/
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.seccion1{
+  margin-top: 0px;
+  background: black;
+  height: 60px;
+}
+
+#nav {
+  padding: 0px;
+
+}
+#nav ul {
+  border-top: 0px:
+}
+
+#nav li{
+  display: inline-block;
+}
+
+#nav li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 20px; /**separación entre las palabras**/
+  float: left;
+}
+
+#nav li a:hover{
+  background: #949493;
+}
+
+#nav li h5{
+  margin-left: 800px;
+  color: white;
+  left: 1180px;
+  display: block;
+  float: right;/**para que se centre en el menú**/
+}
+
+#nav li img{
+  color: white;
+  display: block;
+}
+
+img{
+  width: 50px;
+  border-radius: 20px; /**borde circular**/
+  position: absolute; top: 20px; left: 1285px;
+}
+
+
+/**Barra lateral izquierda**/
+.notas{
+  display: flex;
+  background-color: rgba(160, 160, 159, 0.9);
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.notas:hover{
+  background: #A2A279;
+}
+
+
+.calendario{
+  display: flex;
+  background-color: rgba(176, 176, 174, 0.9);
+  width: 100px;
+  height: 100px;
+}
+
+.calendario:hover{
+  background: #A2A279;
+}
+
+.ajustes{
+  display: flex;
+  background-color: rgba(187, 187, 187, 0.8); 
+  width: 100px;
+  height: 100px;
+}
+
+
+.ajustes:hover{
+  background: #A2A279;
+}
+
+
+.static{
+  display: flex; /**Poder realizar un cuadro para los datos**/
+  background-color:rgba(232, 232, 232,.8); /**color de mi cuadro, el .5 es para ponerlo transparente**/
+  margin-left: 300px; /**Margen de mi cuadro**/
+  width: 700px;
+  height: 500px;
+
+}
