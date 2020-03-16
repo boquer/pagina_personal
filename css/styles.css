@@ -56,48 +56,51 @@ img{
 
 
 /**Barra lateral izquierda**/
-.notas{
-  display: flex;
-  background-color: rgba(160, 160, 159, 0.9);
-  width: 100px;
-  height: 100px;
-  margin-top: 30px;
-}
 
-.notas:hover{
-  background: #A2A279;
+.herramientas button{
+  width: 80px;
+  height: 80px;
+  background-color:#D3D3D0;
 }
 
 
-.calendario{
-  display: flex;
-  background-color: rgba(176, 176, 174, 0.9);
-  width: 100px;
-  height: 100px;
+
+
+
+
+
+
+
+/**Mensajes**/
+
+form{
+  background-color:rgba(232, 232, 229,0.7);
+  margin-left: 150px;
+  margin-right: 100px;
 }
 
-.calendario:hover{
-  background: #A2A279;
+form h5{
+  color: black;
+  font-size: 20px;
+  font-family: cursive;
+  margin-left: 50px;
 }
 
-.ajustes{
-  display: flex;
-  background-color: rgba(187, 187, 187, 0.8); 
-  width: 100px;
-  height: 100px;
+form input, textarea{
+  margin-left: 100px;
+  width: 850px;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 20px;
 }
 
-
-.ajustes:hover{
-  background: #A2A279;
+textarea{
+  min-height: 250px;
 }
 
-
-.static{
-  display: flex; /**Poder realizar un cuadro para los datos**/
-  background-color:rgba(232, 232, 232,.8); /**color de mi cuadro, el .5 es para ponerlo transparente**/
-  margin-left: 300px; /**Margen de mi cuadro**/
-  width: 700px;
-  height: 500px;
-
+#boton{
+  background-color: black;
+  color: white;
+  margin-left: 440px;
+  margin-bottom: 30px;
+  width: 200px;
 }
