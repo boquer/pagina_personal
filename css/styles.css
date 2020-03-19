@@ -1,8 +1,7 @@
 body{
   background: url('../imagenes/fondo.png') no-repeat fixed center center;
   background-size: cover; /**abarque toda la pantalla**/
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0px;
 }
 
 .seccion1{
