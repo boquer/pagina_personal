@@ -1,0 +1,62 @@
+body{
+  background: url('../imagenes/fondo.png') no-repeat fixed center center;
+  background-size: cover; /**abarque toda la pantalla**/
+  margin: 0px;
+}
+
+.menu{
+  display: flex;
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+.icon-menu{
+  margin-right: 20px;
+}
+
+.icon-plus, .icon-grid{
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.menu h4{
+  margin-left: 40px;
+  margin-right: 800px;
+  font-family: 'sans-serif', cursive;
+}
+
+.menu h5{
+  color: white;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+
+.menu img{
+  color: white;
+  display: block;
+}
+
+img{
+  width: 50px;
+  border-radius: 20px; /**borde circular**/
+  position: absolute; top: 10px; left: 1285px;
+}
+
+
+
+textarea{
+  min-width: 700px;
+  min-height: 400px;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+input{
+  width: 70px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #E7E8E8;
+  padding: 2px;
+}
