@@ -35,10 +35,135 @@ body{
 .menu img{
   color: white;
   display: block;
-}
-
-img{
   width: 50px;
   border-radius: 20px; /**borde circular**/
   position: absolute; top: 10px; left: 1285px;
+}
+
+
+
+
+/**Inicia la configuración**/
+
+.perfil{
+  display: flex;
+  background-color:rgba(43, 104, 246,0.5) ;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 400px;
+}
+
+.perfil h4{
+  margin-left: 30px;
+  margin-top: 150px;
+}
+
+.perfil img{
+  width: 300px;
+  border-radius: 200px;
+  margin-left: 200px;
+}
+
+.perfil input{
+  margin-left: 150px;
+  margin-top: 150px;
+  height: 40px;
+}
+
+
+/**Región e Idioma**/
+
+.idioma{
+  display: flex;
+  margin-top: 20px;
+  background-color:rgba(245, 85, 63,0.5) ;
+  margin-left: 20px;
+  margin-right: 700px;
+}
+
+.idioma h4{
+  margin-left: 30px;
+}
+.idioma h5{
+  margin-left: 200px;
+}
+
+.idioma input{
+  margin-left: 150px;
+  margin-top: 15px;
+  height: 25px;
+}
+
+
+
+/**Mensajes**/
+
+.noti{
+  display: flex;
+  margin-top: 20px;
+  background-color:rgba(20, 193, 30,0.5) ;
+  margin-left: 20px;
+  margin-right: 700px;
+}
+
+.noti h4{
+  margin-left: 30px;
+}
+.noti h5{
+  margin-left: 200px;
+}
+
+.noti input{
+  margin-left: 150px;
+  margin-top: 15px;
+  height: 25px;
+}
+
+
+
+/**Cumpleaños en calendario**/
+.cumple{
+  display: flex;
+  margin-top: 20px;
+  background-color:rgba(43, 104, 246,0.5) ;
+  margin-left: 20px;
+  margin-right: 700px;
+}
+
+.cumple h4{
+  margin-left: 30px;
+}
+.cumple h5{
+  margin-left: 200px;
+}
+
+.cumple input{
+  margin-left: 150px;
+  margin-top: 15px;
+  height: 25px;
+}
+
+
+
+/**Eventos en Calendario**/
+
+.even{
+  display: flex;
+  margin-top: 20px;
+  background-color:rgba(245, 85, 63,0.5) ;
+  margin-left: 20px;
+  margin-right: 700px;
+}
+
+.even h4{
+  margin-left: 30px;
+}
+.even h5{
+  margin-left: 200px;
+}
+
+.even input{
+  margin-left: 150px;
+  margin-top: 15px;
+  height: 25px;
 }
